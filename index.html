@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link rel="stylesheet" type="text/css" href="styles.css">
+  	<link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>John Gill</title>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+  		<div id="navbar">
+			  	<ul>
+			  		<li id="homePage"><a href="#">Home</a></li>
+			  		<li id="aboutButton"><a href="#">About</a></li>
+			  		<li id="contactButton"><a href="#">Contact</a></li>
+			  		<li id="mediaButton"><a href="#">Media</a></li>
+					<li id="showsButton"><a href="#">Shows</a></li>
+					<li id="lyricsButton"><a href="#">Lyrics</a></li>
+			  	</ul>
+			</div>
+	  	<div id="intro">
+		  	<div class="photo">
+			  	<figure>
+			  		<img id="frontPhoto" src="main.jpg" />
+			  		<figcaption>Photograph by Christopher Walzak</figcaption>
+			  	</figure>
+		  	</div>
+		  		<a href="http://facebook.com/johngillmusic"><img class="button" src="facebook.png"/></a>
+		  		<a href="http://johngill.bandcamp.com"><img class="button" src="bandcamp.png"/></a>
+			  	<p>
+			  		<a id="enterButton" href="#">Enter</a>
+			  	</p>
+		</div>
+
+
+
+		<div id="about">
+			<h1>About</h1>
+			<figure>
+				<img id="photo2" src="photo2.jpg"/>
+				<figcaption>Photograph by Christopher Walzak</figcaption>
+				<div class="paragraph">
+					<p>&nbsp  &nbsp Canadian singer/songwriter/multi-instrumentalist John Gill has been playing and writing since before he was allowed into bars in his home town of Sydney, Nova Scotia. Drawing inspiration from old traditional songs as well as newer more eclectic music, Gill has managed to craft his own brew of different folk/indie type songs.
+	
+					He spent much time in his home town of Sydney playing in numerous bars as well as all ages shows and playing with various bands in town. Gill was the front man of Sydney Folk/Bluegrass sweethearts Heartwood Slacks, who enjoyed a couple of East Coast tours as well as showcases at both the Celtic Colors international music festival and Nova Music Week.
+	
+					Having released his debut record "Visions" in summer 2015, Gill is currently getting songs together for his sophomore solo effort.</p>
+				</div>
+				<a href="http://facebook.com/johngillmusic"><img class="button" src="facebook.png"/></a>
+		  		<a href="http://johngill.bandcamp.com"><img class="button" src="bandcamp.png"/></a>
+			</figure>
+        </div>
+
+        <div id="contact">
+		</br></br>
+		<img id="aboutPhoto" src="govs.jpg"/>
+			<h2>Give us a shout!</h2>
+			<p>Do you want to get a hold of John? Maybe you want to book him. Maybe you want to ask him what his favorite breed of dog is. He'd love to hear from you! This is how you do it.</p>
+			  <form method="POST" id="contactForm" action="send.php">
+
+			    <label for="fname">First Name</label>
+			    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			    <label for="lname">Last Name</label>
+			    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+			    <label for="email">Email</label>
+			    <input type="email" id = "email" name="email" placeholder="Your email..">
+
+			    <label for="subject">Message</label>
+			    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+			    <input type="submit" value="Submit">
+
+			  </form>
+			
+		</div>
+
+		<div id="media">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/DV3-nOtDFPo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/JpqQVnT3I3A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/sjyxi3pXLTo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/eg_PlYBQFjc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/y3AQ8ZHiX8I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/ljcJmt0Hnc0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</br></br>
+				<a href="http://facebook.com/johngillmusic"><img class="button" src="facebook.png"/></a>
+		  		<a href="http://johngill.bandcamp.com"><img class="button" src="bandcamp.png"/></a>
+		</div>
+
+		<div id = "shows">
+			<h1>shows</h1>
+		</div>
+
+		<div id="lyrics">
+			<h1>lyrics</h1>
+		</div>
+  </body>
+</html>

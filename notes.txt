@@ -1,0 +1,5 @@
+todo for site:
+	contact form working (php, host it on andy's site for testing)
+	maybe think of a better format for the media page (padding between videos or something)
+	make a cool looking table for the shows page 
+	lyrics page: need to find a way to do this.
